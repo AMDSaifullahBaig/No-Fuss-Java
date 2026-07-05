@@ -11,5 +11,6 @@ class Random_Generation
         Random random=new Random();
         int generated=random.nextInt(1,num+1);// Exclusive-num cannot be generated
         System.out.println("Random number generated is:"+generated);
+        input.close();
     }
 }
