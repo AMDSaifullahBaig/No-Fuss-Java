@@ -13,7 +13,7 @@ class Functions
 
         System.out.println("String with the last char removed:"+str.substring(0,str.length()-1));
         char c=str.charAt(0);
-        System.out.println("The charecter at index 0 is "+c);
+        System.out.println("The charecter at index 0 is "+Character.toUpperCase(c));
         System.out.println("The index where the charecter "+c+" occurs is "+str.indexOf(c));
  
         input.close();
