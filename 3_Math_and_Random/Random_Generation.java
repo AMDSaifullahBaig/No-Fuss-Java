@@ -9,7 +9,7 @@ class Random_Generation
         Scanner input=new Scanner (System.in);
         int num=input.nextInt();
         Random random=new Random();
-        int generated=random.nextInt(1,num+1);// Exclusive-num cannot be generated
+        int generated=random.nextInt(1,num+1);// Inclusive-num can be generated
         System.out.println("Random number generated is:"+generated);
         input.close();
     }

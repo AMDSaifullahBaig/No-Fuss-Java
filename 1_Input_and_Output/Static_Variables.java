@@ -1,5 +1,5 @@
 import java.io.*;
-class ClassCreation
+class Static_Variables
 {
     public static void main(String args[])
     {

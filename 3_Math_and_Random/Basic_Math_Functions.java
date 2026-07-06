@@ -11,7 +11,7 @@ class Basic_Math_Functions
         int num2=input.nextInt();
 
         System.out.println(num1+"^"+num2+"="+Math.pow(num1,num2));
-        System.out.println(num1+" square root of "+num2+"="+Math.sqrt(num1));
+        System.out.println("Square root of "+num1+"="+Math.sqrt(num1));
         System.out.println("Maximum between "+num1+" and "+num2+"="+Math.max(num1,num2));
         System.out.println("Minimum between "+num1+" and "+num2+"="+Math.min(num1,num2));
         System.out.println("Value of PI="+Math.PI);
