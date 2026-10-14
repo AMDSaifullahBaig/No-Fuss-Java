@@ -1,6 +1,5 @@
 // similar to list in python
 // dynamic array
-import java.io.*;
 import java.util.Collections;
 import java.util.ArrayList;
 class ArrayList_list

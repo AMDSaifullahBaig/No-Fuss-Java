@@ -1,4 +1,3 @@
-import java.io.*;
 class Static_Variables
 {
     public static void main(String args[])
@@ -6,13 +5,14 @@ class Static_Variables
         Laptop laptop1=new Laptop();
         Laptop laptop2=new Laptop();
         Laptop laptop3=new Laptop();
+        System.out.println(laptop1+" "+laptop2+" "+laptop3);
         System.out.println("The number of laptops initiated:"+Laptop.num);
     }
 }
 
 class Laptop
 {
-    static int num;
+    public static int num;
     Laptop()
     {
         num++;

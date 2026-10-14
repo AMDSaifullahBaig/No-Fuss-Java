@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.Scanner;
 class Ternary
 {
@@ -9,5 +8,6 @@ class Ternary
         int age=input.nextInt();
         String result=(age>=18)? "Adult":"Minor";
         System.out.println("The person is "+result);
+        input.close();
     }
 }

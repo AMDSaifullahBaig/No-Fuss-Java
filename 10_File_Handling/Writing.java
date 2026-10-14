@@ -1,6 +1,5 @@
-    import java.io.*;
-    import java.io.FileWriter;
-    class Writing
+import java.io.FileWriter;
+class Writing
     {
         public static void main(String args[])
         {

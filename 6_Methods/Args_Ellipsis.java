@@ -1,4 +1,3 @@
-import java.io.*;
 class Args_Ellipsis
 {
     public static void main(String args[])

@@ -1,4 +1,3 @@
-import java.io.*;
 class Inheritence
 {
     public static void main(String args[])

@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.Scanner;
 class Basic_Math_Functions
 {

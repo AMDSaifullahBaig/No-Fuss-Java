@@ -1,6 +1,42 @@
-import java.io.*;
 class Interface
 {
+    public interface Herbivores
+    {
+        void eatplant();
+    }
+    public interface Carnivores
+    {
+        void eatanimal();
+    }
+    public static class deer implements Herbivores
+    {
+        @Override
+        public void eatplant()
+        {
+            System.out.println("Eating Plants");
+        }
+    }
+    public static class lion implements Carnivores
+    {
+        @Override
+        public void eatanimal()
+        {
+            System.out.println("Eating Animal");
+        }
+    }
+    public static class bear implements Herbivores,Carnivores
+    {
+        @Override
+        public void eatanimal()
+        {
+            System.out.println("Eating Animal");
+        }
+        @Override
+        public void eatplant()
+        {
+            System.out.println("Eating Plant");
+        }
+    }
     public static void main(String args[])
     {
         deer animal1=new deer();
@@ -12,42 +48,5 @@ class Interface
         bear animal3=new bear();
         animal3.eatanimal();
         animal3.eatplant();
-    }
-}
-public interface Herbivores
-{
-    void eatplant();
-}
-public interface Carnivores
-{
-    void eatanimal();
-}
-public class deer implements Herbivores
-{
-    @Override
-    public void eatplant()
-    {
-        System.out.println("Eating Plants");
-    }
-}
-public class lion implements Carnivores
-{
-    @Override
-    public void eatanimal()
-    {
-        System.out.println("Eating Animal");
-    }
-}
-public class bear implements Herbivores,Carnivores
-{
-    @Override
-    public void eatanimal()
-    {
-        System.out.println("Eating Animal");
-    }
-    @Override
-    public void eatplant()
-    {
-        System.out.println("Eating Plant");
     }
 }

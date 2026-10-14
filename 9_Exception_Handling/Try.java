@@ -1,4 +1,3 @@
-import java.io.*;
 class Try
 {
     public static void main(String args[])
@@ -7,6 +6,7 @@ class Try
         {
             int a;
             a=3/0;
+            System.out.print(a);
         }
         // if one catches other dont
         // getting the exception name via e is mandatory

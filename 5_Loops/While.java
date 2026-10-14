@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.Scanner;
 class While
 {
@@ -13,5 +12,6 @@ class While
             s=input.next().charAt(0);
         }
         while (s!='q');
+        input.close();
     }
 }

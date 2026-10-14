@@ -1,4 +1,3 @@
-import java.io.*;
 class String_Formatting
 {
     public static void main(String args[])

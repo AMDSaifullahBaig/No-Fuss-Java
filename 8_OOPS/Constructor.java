@@ -1,5 +1,3 @@
-import java.io.*;
-import java.util.Scanner;
 class ClassCreation
 {
     public static void main(String args[])
